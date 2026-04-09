@@ -1,0 +1,6 @@
+- hosts: web
+  become: false
+  tasks:
+    - name: Show deployment message
+      debug:
+        msg: "Deploy stage is running successfully"
